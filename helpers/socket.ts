@@ -10,7 +10,7 @@ export const initSocket = async () => {
         timeout : 10000,
         transports: ['websocket']
     }
-    return io("https://frontmate.vercel.app/" as string, option)
+    return io("https://frontmate.vercel.app/" , option)
 }
 
 
