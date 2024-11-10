@@ -10,7 +10,7 @@ export const initSocket = async () => {
         timeout : 10000,
         transports: ['websocket']
     }
-    return io("http://localhost:5001/" as string, option)
+    return io("https://frontmate-server.onrender.com" as string, option)
 }
 
 
