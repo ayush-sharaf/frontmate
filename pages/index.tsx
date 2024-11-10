@@ -45,10 +45,10 @@ const Home: NextPage = () => {
         Made with 💛 by{" "}
         <a
           className="text-primary ml-2 font-bold"
-          href="https://github.com/NayanPatil1998"
+          href="https://github.com/ayush-sharaf"
         >
           {" "}
-          Nayan Patil
+          Ayush Kumar Sharaf
         </a>
       </footer>
     </div>
