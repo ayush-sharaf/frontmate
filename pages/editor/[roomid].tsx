@@ -201,7 +201,7 @@ const EditorContainer: React.FC<EditorProps> = ({}) => {
           <div className="  flex-col ">
             <div className="flex items-center px-4 w-full h-32 ">
               <Image width={50} height={50} src="/logo-white.png" />
-              <h1 className="font-extrabold text-2xl">Code Online</h1>
+              <h1 className="font-extrabold text-2xl">FrontMate</h1>
             </div>
             <hr />
             <div className="flex-col  my-4 w-full ">
