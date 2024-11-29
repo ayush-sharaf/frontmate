@@ -194,7 +194,7 @@ const EditorContainer: React.FC<EditorProps> = ({}) => {
   return (
     <div className="bg-bgdark px-2 flex text-white">
       <Head>
-        <title>Editor | Code Online</title>
+        <title>Editor | FrontMate</title>
       </Head>
       <div className="flex-1 grid grid- grid-cols-editor ">
         <div className="flex flex-col h-screen justify-between">
@@ -204,6 +204,7 @@ const EditorContainer: React.FC<EditorProps> = ({}) => {
               <h1 className="font-extrabold text-2xl">FrontMate</h1>
             </div>
             <hr />
+            <p>If you are facing socket connection failed error , please wait for 1 minute it will work.</p>
             <div className="flex-col  my-4 w-full ">
               {Object.keys(dummyFilesData).map((keyName, i) => {
                 // @ts-ignore
