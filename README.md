@@ -34,17 +34,17 @@ The following environment variables are required for the project:
 
 ### Frontend (.env.local)
 
-&lt;code&gt;
+```
 NEXT_PUBLIC_BACKEND_URL=your_backend_url
 NEXT_PUBLIC_API_KEY=your_frontend_api_key
-&lt;/code&gt;
+```
 
 ### Backend (.env)
 
-&lt;code&gt;
+```
 DATABASE_URL=your_database_connection_url
 SECRET_KEY=your_backend_secret_key
-&lt;/code&gt;
+```
 
 ---
 
@@ -61,16 +61,16 @@ SECRET_KEY=your_backend_secret_key
 
 1. **Clone the Repository**:
 
-   &lt;code&gt;
+   ```
    git clone https://github.com/ayush-sharaf/frontmate.git
    cd frontmate
-   &lt;/code&gt;
+   ```
 
 2. **Install Dependencies**:
 
-   &lt;code&gt;
+   ```
    npm install
-   &lt;/code&gt;
+   ```
 
 3. **Set Up Environment Variables**:
 
@@ -80,16 +80,16 @@ SECRET_KEY=your_backend_secret_key
 
    - Go to the `server` folder:
 
-     &lt;code&gt;
+     ```
      cd server
-     &lt;/code&gt;
+     ```
 
    - Install dependencies and start the backend:
 
-     &lt;code&gt;
+     ```
      npm install
      npm start
-     &lt;/code&gt;
+     ```
 
    The backend should be running now.
 
@@ -98,10 +98,10 @@ SECRET_KEY=your_backend_secret_key
    - Open a new terminal window or tab.
    - Go to the `frontend` folder and start the frontend:
 
-     &lt;code&gt;
+     ```
      cd frontend
      npm run dev
-     &lt;/code&gt;
+     ```
 
    Visit [http://localhost:3000](http://localhost:3000) in your browser to view the frontend.
 
@@ -119,7 +119,7 @@ SECRET_KEY=your_backend_secret_key
    - Use Render or other backend hosting services for deployment.
    - Add necessary environment variables via the Render dashboard.
 
-3. **Test &amp; Connect**:
+3. **Test & Connect**:
    - After deployment, ensure both frontend and backend communicate via the set API URLs.
 
 ---
@@ -135,11 +135,6 @@ We welcome contributions to improve Frontmate! To contribute:
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
-
----
 
 ## Acknowledgements
 
